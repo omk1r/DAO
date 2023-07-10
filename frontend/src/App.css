@@ -1,0 +1,56 @@
+/* App.css */
+
+.connect-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.create-proposal {
+  margin-bottom: 20px;
+}
+.submitbtn {
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.member-button {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+p {
+  text-align: center;
+}
+.ongoing-proposal {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
