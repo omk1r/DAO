@@ -182,7 +182,7 @@ function App() {
             <tbody>
               {proposals.map((proposal) => (
                 <tr key={proposal.id}>
-                  <td>{proposal.id}</td>
+                  <td>{proposal.id.toString()}</td>
                   <td>{proposal.creator}</td>
                   <td>
                     {Web3.utils
@@ -190,8 +190,8 @@ function App() {
                       .toString()}
                   </td>
                   <td>{proposal.sendTo}</td>
-                  <td>{proposal.totalYesVotes}</td>
-                  <td>{proposal.totalNoVotes}</td>
+                  <td>{proposal.totalYesVotes.toString()}</td>
+                  <td>{proposal.totalNoVotes.toString()}</td>
                   <td>
                     {new Date(Number(proposal.endTime) * 1000).toLocaleString()}
                   </td>
